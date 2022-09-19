@@ -75,6 +75,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
+}
+.mini-nav{
+    width: 20%;
+}
+.big-nav{
+    width: 60%;
 }
 .header-bottom{
     display: flex;
