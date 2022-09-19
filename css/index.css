@@ -7,6 +7,7 @@
 
 
 /*/// DEBUG ///*/
+/* header */
 .debug .header-top{
     height: 40px;
     background-color: aqua;
@@ -21,17 +22,35 @@
 .debug .header-box{
     background-color: violet;
     width: 400px;
-    height: 200px;
+    height: 150px;
 }
+/* main */
 .debug .col-big{
     width: 40%;
-    height: 250px;
+    height: 200px;
+    background-color: aqua;
 }
 .debug .col-small{
     width: 20%;
+    height: 200px;
+    background-color: pink;
+}
+.debug .col-main{
+    width: 60%;
+    height: 300px;
+    background-color: green;
+}
+/* footer */
+.debug .fo-col-big{
+    background-color: lightcoral;
+    width: 20%;
     height: 250px;
 }
-
+.debug .fo-col-small{
+    background-color: aquamarine;
+    width: 10%;
+    height: 250px;
+}
 
 /*/// HEADER ///*/
 .header-top{
@@ -52,7 +71,7 @@
 
 /*/// MAIN ///*/
 main > section:nth-child(2n){
-    background-color: gray;
+    background-color: lightgray;
 }
 section{
     display: flex;
@@ -60,8 +79,22 @@ section{
     padding: 20px;
 }
 .col-big{
-    background-color: aqua;
+    
 }
 .col-small{
-    background-color: pink;
+   
+}
+
+/*/// FOOTER ///*/
+footer{
+    background-color: gray;
+}
+.foo-top{
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+.fo-col-big{
+    border: dashed 1px black;
 }
