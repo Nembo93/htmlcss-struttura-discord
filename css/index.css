@@ -7,6 +7,12 @@
 
 
 /*/// DEBUG ///*/
+
+/* border */
+.bord{
+    border: dashed 1px black;
+}
+
 /* header */
 .debug .header-top{
     height: 40px;
@@ -14,14 +20,14 @@
 }
 .debug .nav{
     background-color: orange;
-    width: 50%;
+    width: 60%;
 }
 .debug .header-bottom{
     background-color: blue;
 }
 .debug .header-box{
     background-color: violet;
-    width: 400px;
+    width: 40%;
     height: 150px;
 }
 /* main */
@@ -50,6 +56,13 @@
     background-color: aquamarine;
     width: 10%;
     height: 250px;
+}
+.foo-nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: orange;
+    width: 60%;
 }
 
 /*/// HEADER ///*/
@@ -89,11 +102,13 @@ section{
 footer{
     background-color: gray;
 }
+/* top */
 .foo-top{
     display: flex;
     justify-content: center;
     padding-top: 5px;
     padding-bottom: 15px;
+    margin-bottom: 5px;
 }
 .fo-col-big{
     border: dashed 1px black;
@@ -107,3 +122,11 @@ footer{
 .foo-top :last-child{
     border-right: dashed 1px black;
 }
+/* bottom */
+.foo-bottom{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    border: solid 2px lightgray;
+}
+
