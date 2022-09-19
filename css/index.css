@@ -98,3 +98,12 @@ footer{
 .fo-col-big{
     border: dashed 1px black;
 }
+.fo-col-small{
+    border-top: dashed 1px black;
+    border-bottom: dashed 1px black;
+    border-left: dashed 1px white;
+    border-right: dashed 1px white;
+}
+.foo-top :last-child{
+    border-right: dashed 1px black;
+}
