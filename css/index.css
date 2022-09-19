@@ -51,8 +51,10 @@
 }
 
 /*/// MAIN ///*/
+main > section:nth-child(2n){
+    background-color: gray;
+}
 section{
-    background-color: lightgrey;
     display: flex;
     justify-content: center;
     padding: 20px;
